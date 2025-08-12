@@ -1,5 +1,10 @@
 \# AWS Lambda + API Gateway Serverless REST API
 
+![AWS](https://img.shields.io/badge/AWS-Lambda%20%7C%20API%20Gateway-orange)
+![Language](https://img.shields.io/badge/Python-3.x-blue)
+![Region](https://img.shields.io/badge/Region-ap--southeast--2-lightgrey)
+
+
 
 
 \## 📌 Overview
