@@ -8,6 +8,19 @@ This project demonstrates a fully functional \*\*serverless REST API\*\* built o
 
 It showcases how to design, deploy, and secure a cloud-native application without using the AWS Management Console.
 
+## 🔎 Quick Look: Lambda Handler
+
+[![View Lambda Code](https://img.shields.io/badge/View-Lambda%20Code-blue)](./lambda_function.py)
+
+```python
+import json
+
+def lambda_handler(event, context):
+    return {
+        "statusCode": 200,
+        "headers": {"Content-Type": "application/json"},
+        "body": json.dumps({"message": "Hello from Zain's Cloud API!"})
+    }
 
 
 \## 🚀 Features
